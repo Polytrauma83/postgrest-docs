@@ -207,7 +207,7 @@ The API replies:
     }
   ]
 
-With the current role permissions, anonymous requests have read-only access to the :code:`todos` table. If we try to add a new todo we are not able.
+With the current role permissions, anonymous requests have read-only access to the :code:`todos` table. If we try to add a new todo we are not able. On Windows machines remember to use double instead of single quotes. Escape the inside ones like this: -d "{\\"task\\": \\"do bad thing\\"}"
 
 .. code-block:: bash
 
